@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suyesh Subedi | 3D Artist & Photographer</title>
+    <meta name="description" content="Portfolio of Suyesh Subedi, a 3D Blender artist and photographer.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="logo.png.jpg" alt="Suyesh Subedi Logo" class="logo-image">
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#3d-work" class="nav-link">3D Work</a></li>
+                <li class="nav-item"><a href="#photography" class="nav-link">Photography</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="slideshow">
+                <div class="slide active">
+                    <img src="instasave.website_651843613_18074029649635062_1775248695164264103_n.jpg" alt="Slide 1">
+                </div>
+                <div class="slide">
+                    <img src="instasave.website_633566756_18377602321094766_4742877850896316494_n.jpg" alt="Slide 2">
+                </div>
+                <div class="slide">
+                    <img src="instasave.website_661843073_18177947713348807_5185463215177910750_n.webp" alt="Slide 3">
+                </div>
+                <div class="slide">
+                    <img src="instasave.website_651201976_18096377468511836_7616518711277249337_n.jpg" alt="Slide 4">
+                </div>
+                <div class="slide">
+                    <img src="instasave.website_642604325_17955480813076644_165591696358407894_n.webp" alt="Slide 5">
+                </div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Suyesh Subedi</h1>
+            <p class="hero-subtitle">3D Artist & Photographer</p>
+            <p class="hero-tagline">Creating visual stories through 3D art and photography</p>
+            <a href="#featured" class="cta-button">View Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About</h2>
+            <div class="about-content fade-in">
+                <p class="about-text">
+                    I'm Suyesh Subedi, a passionate 3D artist and photographer based in Nepal. With a deep love for visual storytelling, I specialize in creating stunning 3D renders using Blender and capturing compelling moments through photography.
+                </p>
+                <p class="about-text">
+                    My work spans from intricate product visualizations and architectural renders to artistic photography that explores the beauty of everyday life. I believe in the power of visuals to communicate ideas and evoke emotions.
+                </p>
+                <p class="about-text">
+                    When I'm not behind the camera or modeling in 3D, you can find me exploring new techniques, learning about lighting and composition, or sharing my knowledge with the creative community.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Work Section -->
+    <section class="section" id="featured">
+        <div class="container">
+            <h2 class="section-title fade-in">Featured Work</h2>
+            <div class="featured-grid">
+                <div class="featured-card fade-in">
+                    <div class="featured-image">
+                        <video autoplay muted loop playsinline class="featured-video">
+                            <source src="instasave.website_AQMDcio3KZ1wPlkJn5aX18jwKKtaEEBE8awMhjVje4Kri7IUZe0-hDRUNhzw3gDmFSF4EUFW7q7bD22MWf8WIc79.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="featured-info">
+                        <h3 class="featured-title">Abstract Motion</h3>
+                        <p class="featured-description">Fluid 3D motion graphics exploring form and movement in digital space.</p>
+                        <span class="featured-category">3D Art</span>
+                    </div>
+                </div>
+                <div class="featured-card fade-in">
+                    <div class="featured-image">
+                        <video autoplay muted loop playsinline class="featured-video">
+                            <source src="instasave.website_AQNfw8sbRJ_svovuwGdhXHqqsL_Da2DCNIQZhcRGzwESaQcy3LEAdGtVeq4ZqoCqaOh7yv9lCXv4o-qXXocMfnKkLsZBd-4OSotHevo.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="featured-info">
+                        <h3 class="featured-title">Digital Sculpture</h3>
+                        <p class="featured-description">Dynamic 3D sculpting animation showcasing organic forms and textures.</p>
+                        <span class="featured-category">3D Art</span>
+                    </div>
+                </div>
+                <div class="featured-card fade-in">
+                    <div class="featured-image">
+                        <img src="instasave.website_661843073_18177947713348807_5185463215177910750_n.webp" alt="Featured Work 3" loading="lazy">
+                    </div>
+                    <div class="featured-info">
+                        <h3 class="featured-title">Portrait Photography</h3>
+                        <p class="featured-description">Capturing emotion and character through photography.</p>
+                        <span class="featured-category">Photography</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3D Work Section -->
+    <section class="section" id="3d-work">
+        <div class="container">
+            <h2 class="section-title fade-in">3D Work</h2>
+            <div class="gallery-grid">
+                <!-- 3D Work Videos -->
+                <div class="gallery-item fade-in">
+                    <div class="gallery-video-wrapper">
+                        <video autoplay controls muted loop playsinline class="gallery-video" title="Abstract Motion - Fluid 3D motion graphics exploring form and movement">
+                            <source src="instasave.website_AQMDcio3KZ1wPlkJn5aX18jwKKtaEEBE8awMhjVje4Kri7IUZe0-hDRUNhzw3gDmFSF4EUFW7q7bD22MWf8WIc79.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-video-wrapper">
+                        <video autoplay controls muted loop playsinline class="gallery-video" title="Digital Sculpture - Dynamic 3D sculpting animation showcasing organic forms">
+                            <source src="instasave.website_AQNfw8sbRJ_svovuwGdhXHqqsL_Da2DCNIQZhcRGzwESaQcy3LEAdGtVeq4ZqoCqaOh7yv9lCXv4o-qXXocMfnKkLsZBd-4OSotHevo.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-video-wrapper">
+                        <video autoplay controls muted loop playsinline class="gallery-video" title="Geometric Flow - Mathematical patterns and 3D geometric animations">
+                            <source src="instasave.website_AQO5-RAHz1x0zSSNA9aecGKrcfvRvVaBVFhFHHgbkO2VJXKK120pm0UClCWOzqVXS-3WriZVDB8saIwGKnKnLhH5.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-video-wrapper">
+                        <video autoplay controls muted loop playsinline class="gallery-video" title="Dynamic Motion - Energetic 3D motion graphics with fluid transitions">
+                            <source src="instasave.website_AQMB3f3Ll_B2UsqBYWVGtgzb5W7ECOlZnyRsM7pHwD-sqzZR6FwGweJ1AFWDKCF6FNfmbQBTlOyAggfSDOb1pLTBqyWcSJDx9rUikzE.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-video-wrapper">
+                        <video autoplay controls muted loop playsinline class="gallery-video" title="Abstract Forms - Exploring shapes and forms in 3D space">
+                            <source src="instasave.website_AQNdTYQWkJywnn1NndxFuk6maNl32Hm9cMgVimIQC-feMOS29FymfRwKiSZZFoM_RMqIib94CyF9UqkhIfVFrTNd.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-video-wrapper">
+                        <video autoplay controls muted loop playsinline class="gallery-video" title="Creative Animation - Innovative 3D animation techniques">
+                            <source src="instasave.website_AQOdbQASleLdUgB1cbMGNxvcDV0sYMHAOvA2FWda4cr-47i_zuiYsopb41-RJPYsURsSV8QSmoVvHK-v3SeCOy_k.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-video-wrapper">
+                        <video autoplay controls muted loop playsinline class="gallery-video" title="Visual Effects - 3D visual effects and compositing">
+                            <source src="instasave.website_AQOmX6r4G7ZYE9McMIFbtSHFO-6Kj7de6I0lPFoGfHHucu0C12hGGkrY2mnsh28JG0AzFq9qTDHEcA_fw-9_qV2cv6yJ7DI2dhaXsTk.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-video-wrapper">
+                        <video autoplay controls muted loop playsinline class="gallery-video" title="Cinematic 3D - High-quality 3D rendering and animation">
+                            <source src="instasave.website_AQOt8jjMdWt7Sml-izAOz2ROSH9iSGMIMUWaJ3xbTpDyqSS6ZNvD40rdgVSsQZTorrkfYFvpx39herx-cfKAszQEaqdi3OeGdBq4pA0.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photography Section -->
+    <section class="section" id="photography">
+        <div class="container">
+            <h2 class="section-title fade-in">Photography</h2>
+            <div class="gallery-grid">
+                <!-- REPLACE: Add your photography images -->
+                <div class="gallery-item fade-in">
+                    <div class="gallery-image-wrapper">
+                        <img src="instasave.website_627248682_18199180597333354_624785857580640554_n (1).jpg" alt="Photography 1" loading="lazy" data-full="instasave.website_627248682_18199180597333354_624785857580640554_n (1).jpg">
+                        <div class="gallery-overlay">
+                            <span class="view-full">View Full</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-image-wrapper">
+                        <img src="instasave.website_651843613_18074029649635062_1775248695164264103_n.jpg" alt="Photography 2" loading="lazy" data-full="instasave.website_651843613_18074029649635062_1775248695164264103_n.jpg">
+                        <div class="gallery-overlay">
+                            <span class="view-full">View Full</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-image-wrapper">
+                        <img src="instasave.website_633566756_18377602321094766_4742877850896316494_n.jpg" alt="Photography 3" loading="lazy" data-full="instasave.website_633566756_18377602321094766_4742877850896316494_n.jpg">
+                        <div class="gallery-overlay">
+                            <span class="view-full">View Full</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-image-wrapper">
+                        <img src="instasave.website_661843073_18177947713348807_5185463215177910750_n.webp" alt="Photography 4" loading="lazy" data-full="instasave.website_661843073_18177947713348807_5185463215177910750_n.webp">
+                        <div class="gallery-overlay">
+                            <span class="view-full">View Full</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-image-wrapper">
+                        <img src="instasave.website_651201976_18096377468511836_7616518711277249337_n.jpg" alt="Photography 5" loading="lazy" data-full="instasave.website_651201976_18096377468511836_7616518711277249337_n.jpg">
+                        <div class="gallery-overlay">
+                            <span class="view-full">View Full</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-image-wrapper">
+                        <img src="instasave.website_642604325_17955480813076644_165591696358407894_n.webp" alt="Photography 6" loading="lazy" data-full="instasave.website_642604325_17955480813076644_165591696358407894_n.webp">
+                        <div class="gallery-overlay">
+                            <span class="view-full">View Full</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-image-wrapper">
+                        <img src="instasave.website_650922493_17985104345793172_5421935214196548571_n.webp" alt="Photography 7" loading="lazy" data-full="instasave.website_650922493_17985104345793172_5421935214196548571_n.webp">
+                        <div class="gallery-overlay">
+                            <span class="view-full">View Full</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-image-wrapper">
+                        <img src="instasave.website_627362013_18513863470072938_3383585041134665830_n.jpg" alt="Photography 8" loading="lazy" data-full="instasave.website_627362013_18513863470072938_3383585041134665830_n.jpg">
+                        <div class="gallery-overlay">
+                            <span class="view-full">View Full</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-image-wrapper">
+                        <img src="instasave.website_640045591_18565457698011122_390293011493013709_n.jpg" alt="Photography 9" loading="lazy" data-full="instasave.website_640045591_18565457698011122_390293011493013709_n.jpg">
+                        <div class="gallery-overlay">
+                            <span class="view-full">View Full</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-image-wrapper">
+                        <img src="instasave.website_627248682_18199180597333354_624785857580640554_n.jpg" alt="Photography 10" loading="lazy" data-full="instasave.website_627248682_18199180597333354_624785857580640554_n.jpg">
+                        <div class="gallery-overlay">
+                            <span class="view-full">View Full</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-image-wrapper">
+                        <img src="instasave.website_623964827_18093649681980047_5495054812025128291_n.jpg" alt="Photography 11" loading="lazy" data-full="instasave.website_623964827_18093649681980047_5495054812025128291_n.jpg">
+                        <div class="gallery-overlay">
+                            <span class="view-full">View Full</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-image-wrapper">
+                        <img src="instasave.website_627625559_18126366598538621_5235655716753958269_n.jpg" alt="Photography 12" loading="lazy" data-full="instasave.website_627625559_18126366598538621_5235655716753958269_n.jpg">
+                        <div class="gallery-overlay">
+                            <span class="view-full">View Full</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-image-wrapper">
+                        <img src="instasave.website_586286219_18074287952601404_7729908937255979450_n.heic" alt="Photography 13" loading="lazy" data-full="instasave.website_586286219_18074287952601404_7729908937255979450_n.heic">
+                        <div class="gallery-overlay">
+                            <span class="view-full">View Full</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Contact</h2>
+            <div class="contact-content fade-in">
+                <div class="contact-info">
+                    <p class="contact-text">Feel free to reach out for collaborations, projects, or just to say hello!</p>
+                    <div class="contact-links">
+                        <a href="mailto:subedisuyash92@gmail.com" class="contact-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <span>subedisuyash92@gmail.com</span>
+                        </a>
+                        <a href="https://www.instagram.com/suyash_subedi_/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                            <span>@suyash_subedi_</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-social">
+                    <a href="mailto:subedisuyash92@gmail.com" class="footer-social-link" aria-label="Email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/suyash_subedi_/" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                </div>
+                <p class="footer-copyright">&copy; 2026 Suyesh Subedi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightbox-close" aria-label="Close lightbox">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-image" id="lightbox-image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
