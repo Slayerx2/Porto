@@ -346,14 +346,16 @@ button {
 .hero-subtitle {
     font-size: var(--font-size-xl);
     font-weight: 500;
-    color: var(--accent);
+    color: #ffffff;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
     margin-bottom: var(--spacing-sm);
     animation: fadeInUp 0.8s ease 0.1s backwards;
 }
 
 .hero-tagline {
     font-size: var(--font-size-md);
-    color: var(--text-secondary);
+    color: #ffffff;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
     margin-bottom: var(--spacing-lg);
     animation: fadeInUp 0.8s ease 0.2s backwards;
 }
