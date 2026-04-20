@@ -429,11 +429,14 @@ button {
 
 .featured-image {
     width: 100%;
+    aspect-ratio: 9/16;
     min-height: 300px;
+    max-height: 500px;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--bg-tertiary);
 }
 
 .featured-image img {
@@ -448,12 +451,13 @@ button {
 }
 
 .featured-video {
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 400px;
-    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
     display: block;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
 }
 
 .featured-info {
@@ -519,7 +523,9 @@ button {
 
 .gallery-video-wrapper {
     position: relative;
+    aspect-ratio: 9/16;
     min-height: 250px;
+    max-height: 400px;
     overflow: hidden;
     background-color: var(--bg-tertiary);
     display: flex;
@@ -528,12 +534,13 @@ button {
 }
 
 .gallery-video {
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 350px;
-    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
     display: block;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
 }
 
 .gallery-overlay {
@@ -807,7 +814,7 @@ button {
     }
 
     .gallery-grid {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
         gap: var(--spacing-sm);
     }
 
@@ -824,9 +831,20 @@ button {
 @media (max-width: 480px) {
     .gallery-grid {
         grid-template-columns: 1fr;
+        gap: var(--spacing-sm);
+    }
+
+    .featured-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
     }
 
     .featured-card {
         border-radius: var(--radius-md);
+    }
+
+    .gallery-video-wrapper,
+    .featured-image {
+        max-height: 350px;
     }
 }
